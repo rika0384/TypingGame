@@ -10,25 +10,32 @@
     text-align: center;
   }
   #target{
-    font-size: 53px;
+    font-size: 60px;
     letter-spacing: 3px;
-    height: 130px;
+    height: 50px;
   }
   .info{
     color: #ccc;
   }
   .topInfo{
-    height: 40px;
+    height: 80px;
     font-size: 23px;
+    margin: 10px;
   }
   .warning{
     color: red;
+  }
+  .attention{
+    height: 100px;
+    font-size: 15px;
+    color: gray;
   }
   </style>
 </head>
 <body>
   <div id="topInfo" class="topInfo">Press Space Key to Start</div>
   <p id="target">word</p>
+  <p class="attention">* not case-sensitive *</p>
   <p id="timer">00m 00s 000</p>
   <p class="info">
     Letters count: <span id="score">0</span>,
